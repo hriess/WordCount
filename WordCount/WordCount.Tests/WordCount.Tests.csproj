@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WordCount\WordCount.csproj">
+      <Project>{9687ffe6-3c46-43ed-aef2-c5531d1bb0be}</Project>
+      <Name>WordCount</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
